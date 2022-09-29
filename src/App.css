@@ -1,0 +1,61 @@
+.App {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+
+.ETableCellText {
+  background-color: green;
+  color: white;
+  font-size: 16px;
+}
+
+.ETableCellVal {
+  text-align: right;
+  font-size: 18px;
+}
+
+.CalApp {
+  width: 100%;
+  border: 2px solid #ccc;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: lemonchiffon;
+}
+
+.CalHeading {
+  text-align: center;
+  color: firebrick;
+}
+
+.pie-data canvas {
+  width: 350px !important;
+  height: 350px !important;
+}
+
+.pie-data {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.divider {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableCell {
+  padding: 0 0 20 0;
+}
+
+@media (max-width: 980px) {
+  .divider {
+    display: block;
+    justify-content: space-between;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
